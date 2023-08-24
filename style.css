@@ -2,7 +2,6 @@
 /* 0 0 0 0 */
 /* 1 0 0 0 */
 
-
 /* 0 0 1 2 */
 div h2.header-2 {
     color: green;
@@ -18,15 +17,73 @@ div h2 {
     color: yellow;
 }
 
-/* 
-#header-2-id {
-    color: pink;
-} */
-
 /* 0 1 1 1 */
 h2#header-2-id.header-2 {
     color: brown;
+    font-weight: ;
 }
 
 
 
+
+
+div {
+    border: 5px solid #f14f4f66;
+}
+
+
+li {
+    font-size: 1.5em;
+}
+
+li:nth-child(even) {
+    text-decoration: line-through;
+    color: #FF0000;
+    text-decoration-color: blue;
+}
+
+#div-element ol li:nth-child(1) {
+    font-size: 2em;
+    color: red;
+    text-align: center;
+}
+
+#div-element {
+    background-color: aqua;
+    width: 50vw;
+}
+
+.second-div {
+    background: yellow;
+    width: 50vw;
+}
+
+.text {
+    background: purple;
+    color: white;
+    /* width: 100%; */
+}
+
+
+@font-face {
+    font-family: luisFontFamily;
+    src: url(./get_schwifty.ttf);
+}
+
+
+h1 {
+    font-family: luisFontFamily;
+    color: red;
+    font-size: 5em;
+    text-shadow: 5px 20px 5px black;
+}
+
+body {
+    background: tan;
+    width: 50%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+}
