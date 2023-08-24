@@ -1,0 +1,32 @@
+/* inline id class tagname/element */
+/* 0 0 0 0 */
+/* 1 0 0 0 */
+
+
+/* 0 0 1 2 */
+div h2.header-2 {
+    color: green;
+}
+
+/*  0 0 0 2 */
+div h2 {
+    color: red;
+}
+
+/* 0 0 1 0 */
+.header-2 {
+    color: yellow;
+}
+
+/* 
+#header-2-id {
+    color: pink;
+} */
+
+/* 0 1 1 1 */
+h2#header-2-id.header-2 {
+    color: brown;
+}
+
+
+
